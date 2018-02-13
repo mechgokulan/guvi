@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-int a,b,flag;
-printf("enter the a and b:",a,b);
+int c,d,flag;
+printf("enter the c and d:",c,d);
 while(a<b)
 {
 int i,flag=0;
-for(i=2;i<=a/2;i++)
+for(i=2;i<=c/2;i++)
 {
 if(a%i==0)
 {
@@ -16,8 +16,8 @@ break;
 }
 if(flag==0)
 {
-printf("%d",&a);
-++a;
+printf("%d",&c);
+++c;
 }
 return 0;
 }
