@@ -1,14 +1,8 @@
-#include<stdio.h>
-int main()
-{
-int a,b,i;
-scanf("%d %d",&a,&b);
-for(i=a;i<b;i++)
-{
-if(i%2!=0)
-{
-printf("numbers are:%d",i);
-}
-}
-return 0;
-}
+def main():
+  m=int(input(""))
+  n=int(input(""))
+  for i in range(m+1,n+1):
+    if(i%2!=0):
+        print(i)
+if __name__ == '__main__':
+    main()
