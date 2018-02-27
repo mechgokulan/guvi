@@ -1,22 +1,13 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
-int a,d,n,i,tn;
-int sum=0;
-printf("enter the first term value of A.P. series:");
-scanf("%d",&a);
-printf("enter the total number in A.P. series:");
-scanf("%d",&n);
-printf("enter the common difference of A.P. series:"):'
-scanf("%d",&D);
-sum=(n*(2*a+(n-1)*d))/2;
-tn=a+(n-1)*d;
-printf("sum of the  A.P. series:");'
-for(i=a;i<=tn;i=i+d)
+int n,a,d,sum=0,i,b;
+scanf("%d,%d,%d\n",&n,&a,&d);
+b=a;
+for(i=1;i<=n;i++)
 {
-if(i!=tn)
-printf("%d=%ed",i,sum);
-}
-return 0;
+sum+=b;
+b+=d;
+} 
+printf("%d\n",sum);
 }
