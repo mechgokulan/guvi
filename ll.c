@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int a[50]={1,2,3,4,5,6,7,8};
     int i,n; 
